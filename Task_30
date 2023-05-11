@@ -1,0 +1,5 @@
+a1= int(input("Enter the value of the first element:"))
+d=int(input("Enter the difference of the elements:"))
+n=int(input("Enter the number of items:"))
+res = [a1 + (i - 1) * d for i in range(1, n + 1)]
+print(*res)
